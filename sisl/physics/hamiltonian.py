@@ -6,7 +6,7 @@ import numpy as np
 from sisl._internal import set_module
 import sisl._array as _a
 from .distribution import get_distribution
-from .electron import EigenvalueElectron, EigenstateElectron, spin_squared
+from .electron import EigenvalueElectron, EigenstateElectron, spin_contamination
 from .sparse import SparseOrbitalBZSpin
 
 
